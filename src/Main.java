@@ -67,7 +67,7 @@ public class Main {
                 }
             }
         }
-        /* statusy i wybór ze switch case to najczęstsze użycia enumów, enumy są często używane
+        /* statusy i wybór ze switch case to najczęstsze użycia enumów, enumy są często używane.
         * w różnego rodzaju listach, selectach jako krótkie opcje wyboru np. jako status A, X (Aktualny, Usunięty) */
 
     }
