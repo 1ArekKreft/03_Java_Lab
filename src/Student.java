@@ -1,5 +1,5 @@
 public class Student {
-    protected String Imie;
+    String Imie;
     protected String Nazwisko;
     protected int Wiek;
     protected boolean CzyLubiLabolatoriaZJavy;

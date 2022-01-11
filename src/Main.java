@@ -19,6 +19,21 @@ public class Main {
         Student Maciek = new Student("Maciej","Kowalski",25, true);
         Student Mati = new Student("Mateusz","Morawiecki",54, true);
 
+        Student [] Studenci = {Ania, Maciek, Mati};
+
+        for(Student std : Studenci)
+        {
+            System.out.print("\nImię studenta: ");
+            System.out.print(std.Imie);
+            System.out.print("\nNazwisko studenta: ");
+            System.out.print(std.Nazwisko);
+            System.out.print("\nWiek studenta: ");
+            System.out.print(std.Wiek);
+            System.out.print("\nCzy student lubi laborki z Javy? ");
+            System.out.print(std.CzyLubiLabolatoriaZJavy ? "Tak!" : "Nie!");
+            System.out.println();
+        }
+
 
     }
 }
