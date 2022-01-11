@@ -14,5 +14,11 @@ public class Main {
             c) wyświetlić dane z tablicy, użyć pętli for lub forEach
             d) dane powinny być estetycznie przedstawione
          */
+
+        Student Ania = new Student("Anna","Nowak",18, true);
+        Student Maciek = new Student("Maciej","Kowalski",25, true);
+        Student Mati = new Student("Mateusz","Morawiecki",54, true);
+
+
     }
 }
