@@ -9,7 +9,7 @@ public class Main {
         /* ćw 3 klasy */
 
         /*  zad.1 - Najpierw należy uzupełnić kod w klasie Punkt.java,
-            a) stworzyć objekt punktA typu Punkt,
+            a) stworzyć obiekt punktA typu Punkt,
             w konstruktorze zainicjować zmienną pX --> np. new Punkt(7), wykonać metodę punktA.toString();
             b) następnie ponownie wywopać konstruktor inicjalizujący wszystkie pola z klasy
             --> np. punkt = new Punkt(1, 2, 3);, wykonać metodę punktA.toString();
@@ -18,6 +18,28 @@ public class Main {
             d) wypisać wartości pól (za pomocą getterów),
             e) wywołać metody suma i róznica (obie wersje) z klasy punkt
         */
+        Punkt punktA = new Punkt(7);
+        punktA.toString();
+        punktA = new Punkt(1,2,3);
+        punktA.toString();
+        punktA.pX=3;
+        punktA.pZ=7;
+        punktA.pY=10;
+
+        punktA.toString();
+
+        System.out.print("Punkt X = ");
+        System.out.print(punktA.getpX());
+
+        System.out.print(" Punkt Y = ");
+        System.out.print(punktA.getpY());
+
+        System.out.print(" Punkt Z = ");
+        System.out.print(punktA.getpZ());
+
+        punktA.suma();
+        punktA.roznica();
+        punktA.roznica(5,9,12);
 
     }
 }
