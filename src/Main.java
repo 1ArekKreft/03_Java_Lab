@@ -27,6 +27,18 @@ public class Main {
             b) dodać studentów do Listy ArrayList,
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
+        Student Tomek = new Student(new Osoba("Tomasz","Nowak",53244),wydzialEnum.GDANSK);
+        Student Maciek = new Student(new Osoba("Maciej","Kowalski",24123),wydzialEnum.WARSZAWA);
+        Student Arek = new Student(new Osoba("Arkadiusz","Bialk",53241),wydzialEnum.RZESZOW);
+        Student Mati = new Student(new Osoba("Mateusz","Gates",53121),wydzialEnum.KRAKOW);
+        Student Krzysiu = new Student(new Osoba("Krzysztof","Czerw",63421),wydzialEnum.GDYNIA);
+
+        Student [] Studenci = {Tomek, Maciek, Arek, Mati, Krzysiu};
+
+        for(Student std : Studenci)
+        {
+            System.out.print(std.toString());
+        }
 
     }
 }
