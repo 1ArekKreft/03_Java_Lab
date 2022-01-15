@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +16,21 @@ public class Main {
             e) w klasie Main proszę stworzyć objekty podobnie jak w przykładzie 5,
             oraz stworzyć listę typu najbardziej generycznego np. List<Budynek>
          */
+
+        Samochod S63 = new Samochod(2005,RodzajEnum.Samochod,2500,MarkaEnum.Mercedes,"163","s63");
+        Samochod E36 = new Samochod(2001,RodzajEnum.Samochod,1900,MarkaEnum.BMW,"115","e36");
+        Samochod RAV4 = new Samochod(2010,RodzajEnum.Samochod,3000,MarkaEnum.Toyota,"200","RAV4");
+        Motor Z900 = new Motor(2017,RodzajEnum.Motor,250,MarkaEnum.Kawasaki,"czerwono-zielony");
+        Motor CC150 = new Motor(2019,RodzajEnum.Motor,125,MarkaEnum.Honda,"czarno-pomarańczowy");
+
+        List MyLista = new ArrayList<Pojazd>();
+        MyLista.add(S63);
+        MyLista.add(E36);
+        MyLista.add(RAV4);
+        MyLista.add(Z900);
+        MyLista.add(CC150);
+
+
 
     }
 }
